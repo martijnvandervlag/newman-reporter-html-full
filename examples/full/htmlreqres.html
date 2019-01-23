@@ -10863,10 +10863,11 @@ The documentation for the endpoints as well as example responses can be found at
 			// Verify whether data is JSON
 			obj = JSON.parse(data);
 			data = syntaxHighlight(obj);
+			// only change the html contents if we prettified it
+			// otherwise, reading it as .text() and re-setting it can
+			// and will lose HTML encoded entities
+			$(this).html(data);
 		}
-		
-		// Otherwise just use text
-		$(this).html(data);
 	});
 	</script>
 	
