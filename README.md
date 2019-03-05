@@ -1,6 +1,6 @@
 # FORK INFO
 
-This fork exists to fix https://github.com/alex-sherwin/newman-reporter-htmlfull/issues/3, which was unfortunately never adopted into the original project.
+This fork exists to fix https://github.com/martijnvandervlag/newman-reporter-htmlfull/issues/3, which was unfortunately never adopted into the original project.
 
 This fork is published to NPM as `newman-reporter-htmlfull2` starting at version `2.0.0`
 
