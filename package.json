@@ -1,6 +1,6 @@
 {
   "name": "newman-reporter-htmlfull2",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Newman HTML Reporter providing full reports (without aggregation of results)",
   "main": "index.js",
   "bundleDependencies": false,
