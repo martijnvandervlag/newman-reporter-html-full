@@ -1,3 +1,9 @@
+# FORK INFO
+
+This fork exists to fix https://github.com/martijnvandervlag/newman-reporter-htmlfull/issues/3, which was unfortunately never adopted into the original project.
+
+This fork is published to NPM as `newman-reporter-htmlfull2` starting at version `2.0.0`
+
 # newman-reporter-htmlfull
 HTML reporter for [Newman](https://github.com/postmanlabs/newman) that provides the information about the collection run in HTML format.
 This needs to be used in [conjunction with Newman](https://github.com/postmanlabs/newman#external-reporters) so that it can recognize HTML reporting options.

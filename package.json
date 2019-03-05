@@ -1,6 +1,6 @@
 {
-  "name": "newman-reporter-htmlfull",
-  "version": "1.0.0",
+  "name": "newman-reporter-htmlfull2",
+  "version": "2.0.0",
   "description": "A Newman HTML Reporter providing full reports (without aggregation of results)",
   "main": "index.js",
   "bundleDependencies": false,
@@ -11,15 +11,15 @@
     "pretty-ms": "3.2.0"
   },
   "deprecated": false,
-  "homepage": "https://github.com/martijnvandervlag/newman-reporter-htmlfull",
+  "homepage": "https://github.com/alex-sherwin/newman-reporter-htmlfull",
   "keywords": [
     "newman",
     "reporter",
     "html"
   ],
   "author": {
-    "name": "Martijn van der Vlag",
-    "email": "martijnvandervlag@gmail.com"
+    "name": "Alex Sherwin",
+    "email": "npm@asherw.info"
   },
   "license": "Apache-2.0",
   "engines": {
@@ -30,10 +30,10 @@
   },
   "preferGlobal": true,
   "bugs": {
-    "url": "https://github.com/martijnvandervlag/newman-reporter-htmlfull/issues"
+    "url": "https://github.com/alex-sherwin/newman-reporter-htmlfull/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/martijnvandervlag/newman-reporter-htmlfull.git"
+    "url": "git://github.com/alex-sherwin/newman-reporter-htmlfull"
   }
 }
