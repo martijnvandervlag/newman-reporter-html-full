@@ -285,9 +285,11 @@
 		{
 			obj = JSON.parse(data);
 			data = syntaxHighlight(obj);
+			// only change the html contents if we prettified it
+			// otherwise, reading it as .text() and re-setting it can
+			// and will lose HTML encoded entities
+			$(this).html(data);
 		}
-		
-		$(this).html(data);
 	});
 	</script>
 	
